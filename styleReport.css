@@ -1,0 +1,11 @@
+.button{ 
+    background-color: #a16dea; 
+    display: inline-block;
+   color: hsl(0, 0%, 100%);
+   padding: 15px 30px;
+   width: 150px;
+   text-align: center;
+   font-size: 22px;
+   flex: 0 0 22%;
+   margin: 80px 250px;
+}

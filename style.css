@@ -13,13 +13,10 @@
 
 }   */
 
-
-
 .forms{
     width:650px;
-    height:640px;
+    height:700px;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
-    /* border-radius: 20px; */
     background: #eacfee;
     overflow: hidden;
     align-items: center;
@@ -29,62 +26,42 @@
 }
 
 .first{
-    /* width: 100%;
-    height: 200px; */
-    /* border: none; */
-    /* border-radius: 12px; */
     margin-top:10% ;
     margin-left: 20px;
     font-size: 1.5rem;
     padding: 2rem;
-    /* color: rgb(244, 158, 83); */
-    /* background-color: black; */
     text-align: left;
-    /* pointer-events: none; */
 }
 
 .second{
-    /* width: 100%;
-    height: 200px; */
-    /* border: none; */
-    /* border-radius: 12px; */
     margin-top:2% ;
     margin-left: 20px;
     font-size: 1.5rem;
     padding: 2rem;
-    /* color: rgb(244, 158, 83); */
-    /* background-color: black; */
     text-align: left;
-    /* pointer-events: none; */
 }
 
 .third{
-    /* width: 100%;
-    height: 200px; */
-    /* border: none; */
-    /* border-radius: 12px; */
     margin-top:2% ;
     margin-left: 20px;
     font-size: 1.5rem;
     padding: 2rem;
-    /* color: rgb(244, 158, 83); */
-    /* background-color: black; */
     text-align: left;
-    /* pointer-events: none; */
 }
-/* 
-button{
-    flex: 0 0 22%;
-    margin: 5px 0;
-   width:60px;
-   height: 52px;
-   font-size: 22px;
-   font-weight: 600;
-   border-radius: 5px;
-   cursor:pointer; 
-} */
 
-button {
+.next{ 
+    background-color: #a16dea; 
+    display: inline-block;
+   color: hsl(0, 0%, 100%);
+   padding: 15px 30px;
+   width: 150px;
+   text-align: center;
+   font-size: 22px;
+   flex: 0 0 22%;
+   margin: 80px 250px;
+}
+
+/* button {
     display: inline-block;
     background-color: #a16dea;
     padding: 8px;
@@ -94,7 +71,7 @@ button {
     font-size: 22px;
     flex: 0 0 22%;
     margin: 80px 250px;
-  }
+  } */
 
 .input1 {
     width: 300px;

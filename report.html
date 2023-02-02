@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleReport.css">
+</head>
+<body>
+    <div class="button">
+        <!-- <a class="next" href="report2.html">Click to Display Report</a> -->
+        <input id = "click me" type="button" value="Click to Display Report" onclick="cresults();">
+    </div>
+    
+    <script>
+        function cresults(){ // show results based on performance
+      if (normal_count == redgreen_count == colourblind_count==0){
+         
+         dontproceed();
+     }
+      if (normal_count== redgreen_count== 2){
+        dontproceed();
+      }
+      if (colourblind_count== redgreen_count== 2){
+        dontproceed();
+      }
+      if (normal_count== colourblind_count== 2){
+        dontproceed();
+      }
+     if (normal_count > redgreen_count && normal_count>colourblind_count){
+         proceedtonorm();
+     }
+     if (redgreen_count > normal_count && redgreen_count>colourblind_count){
+         proceedtored();
+     }
+     if (colourblind_count > redgreen_count && colourblind_count>normal_count){
+         proceedtocblind();
+     }
+    
+     
+     function dontproceed(){
+       
+        window.location.href="redocolblndtst.html"
+     }
+    
+    }
+    
+    </script>    
+</body>
+</html>
